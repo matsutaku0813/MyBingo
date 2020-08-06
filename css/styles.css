@@ -9,3 +9,23 @@ th,td{
   text-align: center;
   line-height: 40px;
 }
+
+tbody{
+  cursor: pointer;
+  user-select: none;
+}
+
+thead,tbody{
+  text-align: center;
+}
+
+.intro,.number{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'OCRB';
+  user-select: none;
+}
+
+#number{
+  cursor: pointer;
+}

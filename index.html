@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="utf-8">
   <title>Bingo</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
   <table>
     <thead>
-      <tr><th>B</th><th>I</th><th>N</th><th>G</th><th>O</th></tr>
+      <tr>
+        <th>B</th>
+        <th>I</th>
+        <th>N</th>
+        <th>G</th>
+        <th>O</th>
+      </tr>
     </thead>
-    <tbody>
+    <tbody id="body">
     </tbody>
   </table>
+
+  <div class="intro">下に表示されている数字(初回は「number」)をクリックすると、数字が出てきます。</div>
+  <div class="number">出た数字は<span id=number>number</span>番です。</div>
+
+
   <script src="js/main.js"></script>
 </body>
+
 </html>

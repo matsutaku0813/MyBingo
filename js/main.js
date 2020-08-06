@@ -39,3 +39,12 @@
   const columns = createColumns();
   renderBingo(columns);
 }
+
+{
+  const result = document.getElementById('number');
+
+  number.addEventListener('click', () => {
+    const n = Math.floor(Math.random() * 75 + 1);  //floorが切り捨て、ceilが切り上げ、roundが四捨五入
+    number.textContent = n;
+  });
+}
